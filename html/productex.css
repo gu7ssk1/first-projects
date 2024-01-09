@@ -1,0 +1,76 @@
+* ::after ::before{
+    box-sizing: border-box;
+}
+
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.logo{
+    width: 50px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: lightcoral;
+    width: 100%;
+    margin-bottom: 100px;
+    border-bottom-left-radius: 27px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size:large;
+    color: darkblue;
+    position:relative;
+    top: 3px;
+}
+
+.nav-link a:hover{
+    color:aquamarine;
+    text-shadow: 3px 3px 5px azure ;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+.mailing-list{
+    background-color: darkslategray;
+    color:aliceblue;
+    margin-top: 50px;
+    height: 200px;
+    padding: 11px 25px;
+    border-radius: 5px;
+}
+
+.submit-button, button{
+    background-color:lightpink;
+    border: none;
+}
+#overview{
+    margin-top: 100px;
+    background-color: rgba(255, 182, 193, 0.205);
+    padding: 5px 20px;
+}
+#hardware{
+    margin-top: 100px;
+    background-color: rgba(255, 160, 122, 0.207);
+    padding: 5px 20px;
+}
+#software{
+    margin-top: 100px;
+    background-color: rgba(32, 178, 171, 0.179);
+    padding: 5px 20px;
+}
+#pricings{
+    margin-top: 100px;
+    background-color: rgba(135, 206, 250, 0.201);
+    padding: 5px 20px;
+}

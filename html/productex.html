@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaspberryPI</title>
+    <link rel="stylesheet" href="productex.css"/>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="head_wrap">
+                <nav id="nav-bar">
+                    <img id='header-img' class="logo" src="https://www.raspberrypi.org/wp-content/uploads/2012/03/Raspi_Colour_R.png" alt="RaspberryPI logo" />
+                   <p class="nav-link"><a href="#overview">Overview</a></p>
+                   <p class="nav-link"><a href="#hardware">Hardware</a></p>
+                   <p class="nav-link"><a href="#software">Software</a></p>
+                   <p class="nav-link"><a href="#pricings">Pricings</a></p>
+                </nav>
+            </div>
+        </header>
+        <h1>RaspberryPI</h1>
+        <div id="overview">
+            <h2>Overview</h2>
+            <p><b>The everything computer. Optimised.</b><br>
+                <br>With 2-3x the speed of the previous generation, <br>and featuring silicon designed in-house for the best possible performance,<br>we've redefined the Raspberry Pi experience.</p>
+        </div>
+        <div id="hardware">
+            <h2>Hardware</h2>
+            <h3>RP1</h3>
+            <p class="text">Raspberry Pi 5 is built using the RP1 I/O controller,<br>
+               a package containing silicon designed in-house at Raspberry Pi. <br>
+               USB 3 has more total bandwidth, for much faster transfer speeds.<br>
+               Camera and DSI display connectors are interchangeable, so you can have one of each,<br> or two the same.
+            </p>
+            <h3>More than twice as fast and infinitely smoother</h3>
+            <p class="text">
+              Raspberry Pi 5 features the Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,<br>
+               making it up to three times faster than the previous generation. <br>
+               With RAM variants up to 8GB, this is the fastest, smoothest Raspberry Pi experience yet.
+            </p>
+            <h3>All aboard the PCI express</h3>
+            <p class="text">
+                This addition to Raspberry Pi allows you to connect an M.2<br>
+                SSD to your Raspberry Pi, giving you speedy data transfer and<br>
+                super-fast boot.
+            </p>
+            <h3>Specification</h3>
+            <ul class="text">
+                <li>Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU,
+                    <br> with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache
+                </li>
+                <li>VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2</li>
+                <li>Dual 4Kp60 HDMI® display output with HDR support</li>
+                <li>4Kp60 HEVC decoder</li>
+                <li>LPDDR4X-4267 SDRAM (4GB and 8GB SKUs available at launch)</li>
+                <li>Dual-band 802.11ac Wi-Fi®</li>
+                <li>Bluetooth 5.0 / Bluetooth Low Energy (BLE)</li>
+                <li>microSD card slot, with support for high-speed SDR104 mode</li>
+                <li>2 * USB 3.0 ports, supporting simultaneous 5Gbps operation</li>
+                <li>2 * USB 2.0 ports</li>
+                <li>Gigabit Ethernet, with PoE+ support (requires separate PoE+ HAT)</li>
+                <li>2 * 4-lane MIPI camera/display transceivers</li>
+                <li>PCIe 2.0 x1 interface for fast peripherals (requires separate M.2 HAT or other adapter)</li>
+                <li>5V/5A DC power via USB-C, with Power Delivery support</li>
+                <li>Raspberry Pi standard 40-pin header</li>
+                <li>Real-time clock (RTC), powered from external battery</li>
+                <li>Power button</li>
+            </ul>
+        </div>
+        <div id="software"><h2>Software</h2>
+            <h3>Raspberry PI OS</h3>
+            <p class="'text">Your Raspberry Pi needs an operating system to work. <br>This is it. Raspberry Pi OS (previously called Raspbian)<br> is our official supported operating system.</p>
+            <iframe id="video" alt="RaspberryPI OS video " src="https://www.youtube.com/watch?v=KXIDfcfbNB0&t=7s"></iframe>
+            <h3>Manually install an operating system image</h3>
+            <p>Browse a range of operating systems provided by Raspberry Pi,<br> and download them to install manually.</p>
+            <button id="download_OS" class="down-button button">download</button>
+        </div>
+        <div id="pricings"><h2>Pricings</h2>
+            <table class="table-products">
+                <tr class="table-head">
+                    <th>Raspberry PI Zero 2 W</th>
+                    <th>RP2040</th>
+                    <th>Raspberry Pi Pico</th>
+                </tr>
+                <tr class="table-description">
+                    <td>Your tiny, tiny 15$ computer</td>
+                    <td>A microcontroller chip designed by Raspberry</td>
+                    <td>A range of powerful, flexible microcontroller boards</td>
+                </tr>
+                <tr class="table-price">
+                    <td>15$</td>
+                    <td>5$</td>
+                    <td>4$-8$</td>
+                </tr>
+            </table>
+        </div>
+        <div class="mailing-list">
+            <p>Join our mailing list</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="yourmail@freecodecamp">
+                <input type="submit" value="submit" class="button submit-button">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
