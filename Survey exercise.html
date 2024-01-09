@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+   <meta charset='UTF-8'name='viewpot' 
+         content='width=device-width, initial-scale=1.0'>                       
+   <title> Survey Form </title>
+   <link rel='stylesheet' href='Survey exercise CSS.css' />
+  </head>
+  <body>
+    <header class='header'>
+   <h1 id='title' class='title text'> D&D Allignment Form </h1>
+   <p id='description' class='text description'> Thank you for your D&D insight </p>
+   </header>
+  <form id='survey-form'> 
+<!-- name -->
+    <div class='form-style'>
+     <label  id='name-label' for='name'  >Name </label>
+     <input type='text' id='name' name='name' class='input'   placeholder='Enter your name' required/>
+    </div>
+<!-- email -->
+    <div class='form-style'>
+<label id='email-label' for='email'>Email</label>
+<input type='email' id='email' name='email' class='input' placeholder='Enter your email' requierd/>
+    </div>
+    <!-- number-->
+    <div class='form-style'>
+      <label id='number-label' for='number'>Life experience </label>
+      <input type='number' id='number' name='number' class='input' placeholder='In years' min='3' max='130' />
+      </div>
+      <!--dropdown-->
+      <div class='form-style'>
+        <label id='dropdown-label' for='dropdown'>How do you see yourself?</label>
+        <select id='dropdown' class='input' name='dropdown' required>
+          <option disabled selected value> Select allignment</option>    
+          <option value='lawful-good'>lawful good</option>
+          <option value='neutral-good'>neutral good</option>
+          <option value='chaotic-good'>chaotic good</option>
+          <option value='lawful-neutral'>lawful neutral</option>
+          <option value='neutral-neutral'>true neutral</option>
+          <option value='chaotic-neutral'>chaotic neutral</option>
+          <option value='lawful-evil'>lawful evil</option>
+          <option value='neutral-evil'>neutral evil</option>
+          <option value='chaotic-evil'>chaotic evil</option>
+        </select>
+      </div>  
+      <!--radio--> 
+      <div calss='form-style'>
+        <p>Would you help a person in distress for no apparent reason?</p>
+        <label class='input-radio'>
+          <input
+          class='radio'
+          type='radio' 
+          name='altruism' 
+          value='always'
+          checked
+        />Always</label>
+      <label class='input-radio'>
+        <input
+         class='radio'
+         type='radio' 
+         name='altruism'
+         value='never'
+        />Never</label>
+              <label class='input-radio'>
+        <input
+         class='radio'
+         type='radio' 
+         name='altruism'
+         value='depends'
+        />Depends</label>
+        <!--Checkbox-->
+    <div class='checkbox'>
+      <p>
+        Which traits would you add to your personallity?<br>(if any)
+        
+      </p>
+      <label class='checkbox'>
+       <input
+        type='checkbox'
+        name='traits'
+        class='radio'
+        value='Ruthless'
+        />
+       Ruthless
+      </label > 
+      <label class='checkbox'>
+       <input
+        type='checkbox'
+        class='radio'
+        name='traits'
+        value='sociable'
+        />
+       Sociable
+      </label> 
+            <label class='checkbox'>
+       <input
+        type='checkbox'
+        class='radio'
+        name='traits'
+        value='selfish'
+        />
+       Selfish
+      </label>
+            <label class='checkbox'>
+       <input
+        type='checkbox'
+        class='radio'
+        name='traits'
+        value='manipulative'
+        />
+       Manipulative
+      </label>
+            <label class='checkbox'>
+       <input
+        type='checkbox'
+        class='radio'
+        name='traits'
+        value='aggressive'
+        />
+       Aggressive
+      </label>
+            <label class='checkbox'>
+       <input
+        type='checkbox'
+        class='radio'
+        name='traits'
+        value='humble'
+        />
+       Humble
+      </label>  
+    </div>
+    <!-- textarea -->
+    <div>
+      <p>
+        What would you do to further develop your <i>charachter</i>?
+      </p>
+      <textarea
+      id='develop-comments'
+      name='comments'
+      placeholder="write it here"
+      >
+        </textarea>
+    </div>
+    <div class='submitdiv'>
+      <button type='submit' id='submit' class='submit-button'>
+Submit
+      </button>
+    </div>
+
+    </form>
+  </body>
+</html>
